@@ -14,6 +14,7 @@
 		2C08E23C1E65C9690093062F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C08E23A1E65C9690093062F /* LaunchScreen.storyboard */; };
 		2C08E2471E65C9690093062F /* HTMLContentCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08E2461E65C9690093062F /* HTMLContentCollectionViewTests.swift */; };
 		2C08E2521E65C9690093062F /* HTMLContentCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08E2511E65C9690093062F /* HTMLContentCollectionViewUITests.swift */; };
+		2C08E2601E65CA9F0093062F /* WebViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08E25F1E65CA9F0093062F /* WebViewCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2C08E24D1E65C9690093062F /* HTMLContentCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLContentCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C08E2511E65C9690093062F /* HTMLContentCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLContentCollectionViewUITests.swift; sourceTree = "<group>"; };
 		2C08E2531E65C9690093062F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C08E25F1E65CA9F0093062F /* WebViewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2C08E2381E65C9690093062F /* Assets.xcassets */,
 				2C08E23A1E65C9690093062F /* LaunchScreen.storyboard */,
 				2C08E23D1E65C9690093062F /* Info.plist */,
+				2C08E25F1E65CA9F0093062F /* WebViewCollectionViewCell.swift */,
 			);
 			path = HTMLContentCollectionView;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C08E2601E65CA9F0093062F /* WebViewCollectionViewCell.swift in Sources */,
 				2C08E2341E65C9690093062F /* ViewController.swift in Sources */,
 				2C08E2321E65C9690093062F /* AppDelegate.swift in Sources */,
 			);
